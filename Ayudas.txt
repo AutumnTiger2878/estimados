@@ -36,3 +36,73 @@ default :
     servir_vaso_de_agua()
 
 }
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab4</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+  <h1 id="header"></h1>
+  <!-- <script src="src/condicionales.js"></script> -->
+  <script src="src/switch.js"></script>
+</body>
+</html>           
+var fresas;
+var Peras;
+var mangos;
+var mensaje;
+
+
+function jugo_de_fresas() {
+    window.alert(mensaje);
+    document.querySelector('#header').innerHTML = mensaje;
+  }
+  function servir_vaso_de_agua() {
+    window.alert(mensaje);
+    document.querySelector('#header').innerHTML = mensaje;
+  }
+  function jugo_de_peras() {
+    window.alert(mensaje);
+    document.querySelector('#header').innerHTML = mensaje;
+  }
+  function jugo_de_mango() {
+    window.alert(mensaje);
+    document.querySelector('#header').innerHTML = mensaje;
+  }
+ 
+mangos = false;
+Peras = false;
+fresas = false;
+
+if (fresas) {
+ mensaje = "Batir fresas"
+  jugo_de_fresas();
+} else if (Peras) {
+mensaje = "Batir peras"
+  jugo_de_peras();
+} else if (mangos) {
+mensaje = "Batir mangos"
+  jugo_de_mango();
+} else {
+mensaje = "Servir agua"
+  servir_vaso_de_agua();
+}
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
