@@ -1,4 +1,5 @@
 body {
+    background-color: black;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -19,7 +20,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #333;
+    color: #33AFFF ;
 }
 
 a:hover {
