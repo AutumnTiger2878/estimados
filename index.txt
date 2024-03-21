@@ -1,0 +1,22 @@
+function todo(){
+  frutas = ["Fresas", "Manzanas", "Mangos", "Peras", "Cerezas", "Mandarinas"]
+
+
+  var i = 0
+
+  while(i < 5){
+
+      console.log(i +". " +frutas[i])
+      i = i + 1
+
+  }//fin while
+
+  
+}//fin funcion todo
+
+module.exports = {todo};
+
+
+
+
+
