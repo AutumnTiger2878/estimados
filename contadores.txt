@@ -1,0 +1,38 @@
+
+
+function todo(){
+  
+
+
+  var i = 1;
+  var limite=100
+  
+  while(i<=limite){
+    var contador = 0;
+    var x = 1;
+
+    
+    while(x <= limite){
+    
+      if(i % x == 0 ){
+      contador++;
+    }
+      x++;
+    }
+ if(contador == 2){
+console.log(i)
+ }
+    
+
+
+      
+     i = i + 1;
+   
+  }//fin while
+console.log(contador+" son primos de: "+limite)
+ 
+  
+}//fin funcion todo
+
+module.exports = {todo};
+
